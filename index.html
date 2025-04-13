@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dopple.it – Not Just a Future</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="hero">
+    <img src="assets/logo.png" alt="Lux SDK Logo" id="logo">
+    <h1>Not Just a Future — An Infinite, Multi-Dimensional Journey.</h1>
+    <p class="tagline">Crafting emotional experiences through light, motion, sound, and code.</p>
+    <button onclick="Lux.Payload.coreSequence()">Run Core Sequence</button>
+    <button onclick="Lux.Payload.hopefulFuture()">Run Hopeful Future</button>
+  </div>
+
+  <canvas id="scene-canvas"></canvas>
+
+  <audio id="pulseSound" src="assets/sounds/pulseSound.mp3"></audio>
+  <audio id="futureSound" src="assets/sounds/futureSound.mp3"></audio>
+
+  <!-- External Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+  <!-- Lux SDK & Main -->
+  <script src="lux-sdk-v2.1.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
